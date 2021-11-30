@@ -93,7 +93,7 @@ HTMLWidgets.widget({
         }
 
 
-        var formatNumber = d3.format(",.0f"),
+        var formatNumber = d3.format(",.2f"),
         format = function(d) { 
             if (typeof d === "string") return d;
             return formatNumber(d); 
